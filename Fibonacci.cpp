@@ -4,7 +4,6 @@ using namespace std;
 int main()
 {
     int n, f1 = 0, f2 = 1, berikutnya = 0;
-    // gunanya untuk mencari nilai yang diinginkan
 
     cout << "Masukan Batas Deret Bilangan Fibonacci :  ";
     cin >> n;
@@ -28,7 +27,7 @@ int main()
         //yaitu rumus umum fibonacci 2 nilai sebelumnya dijumlahkan
         f1 = f2;
         f2 = berikutnya;
-         // Mencetak deret bilangan fibonacci berikutnya.
+        // Mencetak deret bilangan fibonacci berikutnya.
         cout << berikutnya << " ";
     }
     return 0;
