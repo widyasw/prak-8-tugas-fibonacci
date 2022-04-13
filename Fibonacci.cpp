@@ -15,7 +15,7 @@ int main()
         // Mencetak dua deret bilangan fibonacci pertama.
         if(i == 1)
         {
-            cout << " " << f1<<" ";
+            cout << " " << f1 <<" ";
             continue;
         }
         if(i == 2)
